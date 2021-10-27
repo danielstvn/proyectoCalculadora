@@ -1,0 +1,57 @@
+<div>
+
+    <div class="div-header">
+        <h1>Calculadora</h1>
+    </div>
+
+    <div class="container">
+
+        
+        <div class="div-tabla">
+
+            <div class="pantalla1">
+                <input type="text"  id="pantalla" placeholder="________________________________" readonly value="{{pantalla}}">
+            </div>
+
+            <table class="tabla">
+                <tbody class="table-tbody">
+                    <tr>
+         
+                        
+                    </tr>
+                    <tr>
+                        <td><button class="btnCalc" (click)="numero('7')">7</button></td>
+                        <td><button class="btnCalc" (click)="numero('8')">8</button></td>
+                        <td><button class="btnCalc" (click)="numero('9')">9</button></td>
+         
+                    </tr>
+                    <tr>
+                        <td><button class="btnCalc" (click)="numero('4')">4</button></td>
+                        <td><button class="btnCalc" (click)="numero('5')">5</button></td>
+                        <td><button class="btnCalc" (click)="numero('6')">6</button></td>
+                 
+                    </tr>
+        
+                    <tr>
+                        <td><button class="btnCalc" (click)="numero('1')">1</button></td>
+                        <td><button class="btnCalc" (click)="numero('2')">2</button></td>
+                        <td><button class="btnCalc" (click)="numero('3')">3</button></td>
+           
+                    </tr>
+        
+                    <tr>
+                        <td colspan="3"><button  class="btnCalc" id="btnCalc0" (click)="numero('0')">0</button></td>
+                       
+        
+                    </tr>
+                </tbody>
+                
+            </table>
+        </div>
+
+    </div>
+</div>
+
+<div class="selector">
+    
+</div>

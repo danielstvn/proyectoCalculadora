@@ -1,0 +1,135 @@
+
+.div-header{
+    width: 100%;
+    margin: 5% auto;
+    text-align: center;
+    font-family: Berlin Sans FB;
+    font-size: 40px;
+    
+}
+
+.footer{
+    text-align: center;
+    margin-top: 80px;
+    font-family: sans-serif;
+    color:#888;
+}
+
+.div-tabla{
+    width: 40%;
+    text-align: center;
+    margin-top: -550px;
+    margin-left: 52%;
+
+}
+.pantalla1{
+    width: 60%;
+    margin: 5% auto;
+}
+
+.pantalla1 input{
+    width: 80%;
+    height: 50px;
+    margin-top: 60px;
+    font-family: Berlin Sans FB;
+    font-size: 50px;
+    background-color: transparent;
+    color: white;
+    border: 0px;
+    text-align: right;
+
+
+}
+
+h1{
+    color: #494848;
+    font-family: Berlin Sans FB;
+    font-size: 40px;
+}
+
+
+.tabla{
+    width: 50%;
+    line-height: 10px;
+    margin: 3% auto;
+    border-spacing: 0px 20px;
+}
+.tabla td{
+    text-align: center;
+}
+
+
+
+#btnAC,#btnDEL{
+    background: #303131;
+    color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    font-family: Berlin Sans FB;
+    font-size: 25px;
+    
+    position: relative;
+    border: 2px solid #A1A1A1;
+    outline: 2px solid;
+    outline-color: #A1A1A1;
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+
+}
+
+#btnAC:hover,#btnDEL:hover{
+    box-shadow: inset 0 0 20px #A1A1A1, 0 0 20px #A1A1A1;
+    outline-color: rgba(49, 138, 172, 0);
+    outline-offset: 80px;
+    text-shadow: 1px 1px 6px #fff;
+   
+
+}
+
+#btnDividir,#btnMultiplicar,#btnRestar,#btnSumar{
+    background-color: #303131;
+    color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    font-family: Berlin Sans FB;
+    font-weight: bold;
+    font-size: 30px;
+    vertical-align: middle;
+
+    position: relative;
+    border: 2px solid #F69906;
+    outline: 2px solid;
+    outline-color: #F69906;
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+    
+}
+
+#btnResultado{
+    background-color: #303131;
+    color: white;
+    width: 120px;
+    height: 70px;
+    border-radius: 40px;
+    font-family: Berlin Sans FB;
+    font-weight: bold;
+    font-size: 30px;
+    vertical-align: middle;
+
+    position: relative;
+    border: 2px solid #F69906;
+    outline: 2px solid;
+    outline-color: #F69906;
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+#btnDividir:hover,#btnMultiplicar:hover,#btnRestar:hover,#btnSumar:hover,#btnResultado:hover{
+    box-shadow: inset 0 0 20px #F69906, 0 0 20px #F69906;
+    outline-color: rgba(49, 138, 172, 0);
+    outline-offset: 80px;
+    text-shadow: 1px 1px 6px #fff;
+
+}
+
+
+

@@ -1,0 +1,42 @@
+<div>
+    <app-numeroscal  #numeroscal1></app-numeroscal>
+
+    <div class="div-tabla">
+
+        <div class="pantalla1">
+            <h1>Operaciones</h1>
+        </div>
+
+        <table class="tabla">
+            <tbody class="table-tbody">
+                <tr>
+                    
+                    <td><button id="btnAC" value="AC" (click)="numeroscal1.operar('ac')">AC</button></td>
+                    <td><button id="btnDEL" value="DEL" (click)="numeroscal1.operar('del')">DEL</button></td>
+                    
+                </tr>
+                <tr>
+                    <td><button id="btnMultiplicar" (click)="numeroscal1.operar('*')">*</button></td>
+
+                    <td><button id="btnDividir" (click)="numeroscal1.operar('/')">/</button></td>
+                </tr>
+                <tr>
+              
+                    <td><button id="btnRestar" (click)="numeroscal1.operar('-')">-</button></td>
+
+                    <td><button id="btnSumar" (click)="numeroscal1.operar('+')">+</button></td>
+                </tr>
+    
+    
+                <tr>
+                   
+                    <td colspan="2"><button id="btnResultado" (click)="numeroscal1.operar('=')">=</button></td>
+    
+                </tr>
+            </tbody>
+            
+        </table>
+    </div>
+
+    
+</div>

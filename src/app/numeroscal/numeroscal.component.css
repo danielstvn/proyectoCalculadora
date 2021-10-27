@@ -1,0 +1,98 @@
+.container{
+    width: 50%;
+    height: 100%;
+    background-color:  black;
+
+    margin-left: 5%;
+}
+.div-header{
+    width: 100%;
+    margin: 5% auto;
+    text-align: center;
+    font-family: Berlin Sans FB;
+    font-size: 40px;
+
+    
+}
+
+.footer{
+    text-align: center;
+    margin-top: 80px;
+    font-family: sans-serif;
+    color:#888;
+}
+
+.div-tabla{
+    width: 80%;
+    margin: 5% auto;
+    text-align: center;
+
+}
+.pantalla1{
+    width: 90%;
+    margin: 5% auto;
+}
+
+.pantalla1 input{
+    width: 80%;
+    height: 50px;
+    margin-top: 60px;
+    font-family: Berlin Sans FB;
+    font-size: 50px;
+    background-color: transparent;
+    color: white;
+    border: 0px;
+    text-align: right;
+
+
+}
+
+
+
+.tabla{
+    width: 50%;
+    line-height: 10px;
+    margin: 3% auto;
+    border-spacing: 0px 20px;
+}
+.tabla td{
+    text-align: center;
+}
+
+
+
+
+
+.btnCalc{
+    background-color: #303131;
+    color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    font-family: Berlin Sans FB;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10px;
+
+    position: relative;
+    border: 2px solid #318aac;
+    outline: 3px solid;
+    outline-color: rgba(49, 138, 172, 0.4);
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+    
+}
+#btnCalc0{
+    width: 70%;
+    border-radius: 150px;
+
+}
+
+
+  .btnCalc:hover, .btnPunto:hover {
+    box-shadow: inset 0 0 20px rgba(49, 138, 172, 1), 0 0 20px rgba(49, 138, 172, 1);
+    outline-color: rgba(49, 138, 172, 0);
+    outline-offset: 80px;
+    text-shadow: 1px 1px 6px #fff;
+   
+  }
+  
