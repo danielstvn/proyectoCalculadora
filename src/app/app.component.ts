@@ -7,6 +7,19 @@ import { NumeroscalComponent } from './numeroscal/numeroscal.component';
 })
 export class AppComponent {
   title = 'proyecto006';
+  @ViewChild('numeroscal1') borrar!: NumeroscalComponent;
+
+
+   funcionBorrar(opc: String){
+    switch(opc){
+      case 'ac':
+        this.borrar.borrarPantalla(opc);
+        break;
+      case 'del':
+       this.borrar.borrarPantalla(opc);
+       break;
+    }
+   }
 
  
 
