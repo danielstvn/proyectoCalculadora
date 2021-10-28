@@ -87,22 +87,26 @@ export class NumeroscalComponent implements OnInit {
           break;
         }
         break;
+        
+    }
+  }
 
-        case "ac":
+ borrarPantalla(opc: String){
+    switch (opc){
+      case "ac":
           this.operador2 = "";
           this.pantalla = "";
-        break;
+      break;
 
-        case "del":
-          const result = this.pantalla;
-          const index = result.length;
-          this.auxPantalla='';
-          for (let i = 0; i < index-1; i++) {
-            this.auxPantalla += result.charAt(i);
-          }
-          this.pantalla = this.auxPantalla;
-        break;
-        
+      case "del":
+        const result = this.pantalla;
+        const index = result.length;
+        this.auxPantalla='';
+        for (let i = 0; i < index-1; i++) {
+          this.auxPantalla += result.charAt(i);
+        }
+        this.pantalla = this.auxPantalla;
+      break;
     }
   }
 
